@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+}
+
+#gameArea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width of the game area to 100% */
+    height: 100%; /* Set the height of the game area to 100% */
+    background-color: #000; /* Background color of the game area */
+    background: url('graphics/stars.jpg') no-repeat center center fixed; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#gameCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width of the canvas to 100% */
+    height: 100%; /* Set the height of the canvas to 100% */
+    display: block; /* Prevent inline spacing */
+    background: url('graphics/stars.jpg') no-repeat center center fixed; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
